@@ -18,10 +18,6 @@ body {
     float: left;
 }
 
-.float-right {
-    float: right;
-}
-
 .w-50 {
     width: 50%;
 }
@@ -56,7 +52,7 @@ body {
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 815px;
 }
 
 .nav-container {
@@ -75,6 +71,7 @@ header {
     margin: auto;
     line-height: 80px;
     z-index: 999;
+    border-bottom: 1px solid black;
     background-color: rgb(244, 249, 253);
 }
 
@@ -137,42 +134,115 @@ header {
 
 /* header image */
 
-.background-image {
+.header-background {
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-image: url(../img/jumbotron.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.background-image .container {
+.header-background .header-container {
     width: 90%;
-    height: 600px;
+    height: 700px;
     margin: auto;
 }
 
-.container .text {
+.header-container .text {
     height: 100%;
 }
 
-.container .text h1 {
+.header-container .text h1 {
     font-size: 40px;
     padding-top: 70px;
     padding-bottom: 40px;
     color: rgb(51, 71, 91);
 }
 
-.container .text p {
+.header-container .text p {
     font-size: 14px;
 }
 
-.container .text a {
+.header-container .text a {
     text-decoration: none;
     font-size: 14px;
 }
 
-.container .text p:last-child {
+.header-container .text p:last-child {
     padding-top: 50px;
     font-size: 12px;
 }
 
 
 /* /header */
+
+
+/* main */
+
+.first-section {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(244, 249, 253);
+}
+
+.first-section .first-section-image {
+    width: 90%;
+    height: 370px;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first-section-image .image-cube {
+    width: 25%;
+    height: 228px;
+    margin: auto;
+    background-image: url(../img/cube.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-section-image,
+.first-section-image h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* column */
+
+.column-top {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.column-top .left {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+.column-top .right {
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+/* da rifinire */
+
+.column {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background-color: red;
+}
+
+
+/* /main */
