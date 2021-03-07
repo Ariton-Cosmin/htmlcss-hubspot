@@ -8,6 +8,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* classes to be recycled */
+
 .clearfix::after {
     display: table;
     content: '';
@@ -26,6 +29,7 @@ body {
     line-height: 20px;
     padding: 5px 10px;
     border-radius: 5px;
+    font-size: 14px;
     color: rgb(254, 119, 90);
     border: 1px solid rgb(254, 119, 90);
 }
@@ -46,6 +50,18 @@ body {
 .padding-bottom {
     padding-bottom: 50px;
 }
+
+.col-3 {
+    float: left;
+    width: 30%;
+}
+
+.fa-check-circle {
+    color: rgb(254, 119, 90);
+}
+
+
+/* /classes to be recycled */
 
 
 /* header */
@@ -215,7 +231,7 @@ header {
 
 .column-top {
     width: 90%;
-    height: 400px;
+    height: 350px;
     margin: auto;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -225,23 +241,74 @@ header {
 .column-top .left {
     width: 30%;
     height: 100%;
-    background-color: red;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: center;
+}
+
+.image-book {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/book.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.column-top .left div:last-child {
+    padding: 10%;
 }
 
 .column-top .right {
     width: 70%;
     height: 100%;
-    background-color: blue;
+    padding-right: 7%;
 }
 
+.column-top .right h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: rgb(51, 71, 91);
+}
 
-/* da rifinire */
+.column-top .right p {
+    padding-bottom: 30px;
+}
+
+.column-top .right h3 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.column-top .right span {
+    display: inline-block;
+    width: 70%;
+    padding-left: 10%;
+}
 
 .column {
     width: 90%;
-    height: 500px;
+    height: 600px;
     margin: auto;
-    background-color: red;
+}
+
+.column-left {
+    height: 100%;
+    background-color: blue;
+}
+
+.column-center {
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: yellow;
+}
+
+.column-right {
+    height: 100%;
+    background-color: green;
 }
 
 
