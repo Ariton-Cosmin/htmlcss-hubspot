@@ -283,12 +283,6 @@ header {
     padding-bottom: 30px;
 }
 
-.box .right span {
-    display: inline-block;
-    width: 70%;
-    padding-left: 10%;
-}
-
 
 /* columns */
 
@@ -306,6 +300,7 @@ header {
     padding: 2%;
     margin-bottom: 10px;
     text-align: center;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
@@ -355,6 +350,7 @@ header {
     padding: 2%;
     margin-bottom: 10px;
     text-align: center;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
@@ -371,12 +367,138 @@ header {
     padding: 2%;
     margin-bottom: 10px;
     text-align: center;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .column-right .columns-top .image-table {
     background-image: url(../img/table.svg);
+}
+
+
+/* second section */
+
+.second-section {
+    height: 680px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(0, 167, 187);
+}
+
+.second-section-text {
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+}
+
+.second-section-text h1 {
+    font-size: 29px;
+    padding-bottom: 40px;
+}
+
+.second-section-text p {
+    font-size: 14px;
+}
+
+.box-second-section {
+    width: 100%;
+    height: 340px;
+    margin: auto;
+}
+
+
+/* top row images */
+
+.image-row-top {
+    width: 100%;
+    height: 170px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.images-top {
+    width: 25%;
+    height: 170px;
+    padding: 15px 10px;
+    border-right: 1px solid white;
+}
+
+.border-right {
+    border-right: none;
+}
+
+.images-top .images {
+    height: 50px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.images-top .bottom-number {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.images-top span {
+    font-size: 40px;
+}
+
+.images-top .bottom-text {
+    font-size: 12px;
+}
+
+.images-top .image-hands {
+    width: 18%;
+    background-image: url(../img/hands.svg);
+}
+
+.images-top .image-blogs {
+    width: 30%;
+    background-image: url(../img/blogs.svg);
+}
+
+.images-top .image-accademy {
+    width: 50%;
+    background-image: url(../img/academy.svg);
+}
+
+.images-top .image-inbound {
+    width: 40%;
+    background-image: url(../img/inbound.svg);
+}
+
+
+/* bottom row images */
+
+.image-row-bottom {
+    width: 100%;
+    height: 170px;
+}
+
+.images-top .image-connect {
+    width: 30%;
+    background-image: url(../img/connect.svg);
+}
+
+.images-top .image-globe {
+    width: 15%;
+    background-image: url(../img/globe.svg);
+}
+
+.images-top .image-followers {
+    width: 15%;
+    background-image: url(../img/followers.svg);
+}
+
+.images-top .image-growth {
+    width: 45%;
+    background-image: url(../img/growth.svg);
 }
 
 
